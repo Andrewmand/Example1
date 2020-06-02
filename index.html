@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <style>
+        .contact__icon {
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .contact__item {
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        .strong {
+            font-weight: bolt;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Превет мир</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="#frontend">Frontend</a></li>
+                <li><a href="#">Основи HTML5</a></li>
+            </ul>
+        </nav>
+        <div class="contact">
+            <a class="contact__item" href="tel:+380986165190">
+                <img class="contact__icon" src=" img/phone.png" alt="phone" title="Подзвони мне" width="16px">
+                Подзвони мне +380986165190
+            </a>
+            <a class="contact__item" href="skype:andrew_mand.in.ch?chat">
+                <img class="contact__icon" src=" img/skype.png" alt="skype" title="Напиши мне" width="16px">
+                Напиши мне в скайп
+            </a>
+        </div>
+    </header>
+    <hr>
+    <article>
+        <section>
+            <figure>
+                <img src="img/yeti.png" alt="html учить просто" title="ети" width="500px">
+                <figcaption>
+                    Lorem ipsum dolor sit amet.
+                </figcaption>
+            </figure>
+            <h2 id="frontend">Frontend</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur <span class="strong"> elit. Natus libero excepturi </span>harum
+                distinctio
+                inventore quos optio suscipit? Dolorum <strong> nihil totam </strong>quasi porro fugit, <em>qui
+                    labore</em>corporis velit
+                cum. Impedit?</p>
+            <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, ex.
+            </blockquote>
+            <dl>
+                <dt><strong>HTML</strong></dt>
+                <dd>Lorem ipsum dolor sit amet.</dd>
+                <dt><strong>CSS</strong></dt>
+                <dd>Lorem ipsum dolor sit amet.</dd>
+                <dt><strong>JS</strong></dt>
+                <dd>Lorem ipsum dolor sit amet.</dd>
+            </dl>
+        </section>
+        <section id="html5">
+            <h2>Щснови HTMl</h2>
+            <h3>HTML силки</h3>
+            <ol>
+                <li>
+                    <a href="https://www.google.com/" target="_blank">Силка на гугл</a>
+                </li>
+            </ol>
+            <iframe src="index.html" frameborder="0" width="500" height="500"></iframe>
+            <details>
+                <summary>
+                    Youtube видео
+                </summary>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jDkKI9dRNxw" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </details>
+            <form action="#">
+                <h2>Ви молодец. Заполни форму потом</h2>
+                <div class="form__row">
+                    <label for="email">Ваше імя</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form__row">
+                    <label for="name">Ваш мейл</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form__row">
+                    <label for="date">Дата рождения</label>
+                    <input type="date" id="date" name="date">
+                </div>
+
+                <div class="form__row">
+                    <p>Что ви освоили</p>
+                    <label for="html">Html</label>
+                    <input id="html" type="checkbox">
+                </div>
+                <div>
+                    <label for="css">css</label>
+                    <input id="css" type="checkbox">
+                </div>
+                <div>
+                    <label for="Js">js</label>
+                    <input id="JS" type="checkbox">
+                </div>
+                <div class="form__row">
+                    <p>Оцінка</p>
+                    <div>
+                        <label for="8">8</label>
+                        <input id="8" type="radio" name="rating">
+                    </div>
+
+                    <div>
+                        <label for="9">9</label>
+                        <input id="9" type="radio" name="rating">
+                    </div>
+                    <div>
+                        <label for="10">10</label>
+                        <input id="10" type="radio" name="rating">
+                    </div>
+                </div>
+                <input type="submit" value="Отправить форму">
+            </form>
+        </section>
+    </article>
+
+
+
+
+
+
+</body>
+
+</html>
